@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MATE.</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+
+    <!-- =========================
+         01 PROFILE
+    ========================== -->
+
+    <section id="setupScreen" class="screen active">
+
+        <div class="setup-header">
+
+            <div class="logo">
+                MATE.
+            </div>
+
+            <div class="step">
+                01 / 03
+            </div>
+
+        </div>
+
+
+        <div class="setup-content">
+
+            <p class="eyebrow">
+                TELL US ABOUT YOU
+            </p>
+
+            <h1>
+                まずは<br>
+                あなたについて。
+            </h1>
+
+
+            <div class="form-card">
+
+                <div class="form-group">
+
+                    <label for="userName">
+                        NAME
+                    </label>
+
+                    <input
+                        type="text"
+                        id="userName"
+                        placeholder="名前"
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="userAge">
+                        AGE
+                    </label>
+
+                    <input
+                        type="number"
+                        id="userAge"
+                        placeholder="年齢"
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="userArea">
+                        AREA
+                    </label>
+
+                    <input
+                        type="text"
+                        id="userArea"
+                        placeholder="住んでいる場所"
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="userAbout">
+                        ABOUT YOU
+                    </label>
+
+                    <textarea
+                        id="userAbout"
+                        placeholder="好きなことや自分について"
+                    ></textarea>
+
+                </div>
+
+
+                <button
+                    type="button"
+                    id="profileNext"
+                    class="main-button"
+                >
+
+                    <span>
+                        NEXT
+                    </span>
+
+                    <span>
+                        →
+                    </span>
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================
+         02 HOBBY
+    ========================== -->
+
+    <section id="hobbyScreen" class="screen">
+
+        <div class="setup-header">
+
+            <div class="logo">
+                MATE.
+            </div>
+
+            <div class="step">
+                02 / 03
+            </div>
+
+        </div>
+
+
+        <div class="setup-content">
+
+            <p class="eyebrow">
+                YOUR INTERESTS
+            </p>
+
+            <h1>
+                好きなことを<br>
+                教えて。
+            </h1>
+
+            <p class="description">
+                共通の趣味が多いほど、<br>
+                相性の高いMATEが見つかります。
+            </p>
+
+
+            <div class="choice-grid">
+
+                <button type="button" class="choice-button hobby" data-value="車">
+                    🚗 車
+                </button>
+
+                <button type="button" class="choice-button hobby" data-value="バイク">
+                    🏍 バイク
+                </button>
+
+                <button type="button" class="choice-button hobby" data-value="ドライブ">
+                    🚙 ドライブ
+                </button>
+
+                <button type="button" class="choice-button hobby" data-value="旅行">
+                    ✈️ 旅行
+                </button>
+
+                <button type="button" class="choice-button hobby" data-value="音楽">
+                    🎧 音楽
+                </button>
+
+                <button type="button" class="choice-button hobby" data-value="ファッション">
+                    👕 ファッション
+                </button>
+
+                <button type="button" class="choice-button hobby" data-value="筋トレ">
+                    🏋️ 筋トレ
+                </button>
+
+                <button type="button" class="choice-button hobby" data-value="スポーツ">
+                    ⚽ スポーツ
+                </button>
+
+                <button type="button" class="choice-button hobby" data-value="カフェ">
+                    ☕ カフェ
+                </button>
+
+                <button type="button" class="choice-button hobby" data-value="映画">
+                    🎬 映画
+                </button>
+
+            </div>
+
+
+            <button
+                type="button"
+                id="hobbyNext"
+                class="main-button"
+            >
+
+                <span>
+                    NEXT
+                </span>
+
+                <span>
+                    →
+                </span>
+
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================
+         03 VALUES
+    ========================== -->
+
+    <section id="valueScreen" class="screen">
+
+        <div class="setup-header">
+
+            <div class="logo">
+                MATE.
+            </div>
+
+            <div class="step">
+                03 / 03
+            </div>
+
+        </div>
+
+
+        <div class="setup-content">
+
+            <p class="eyebrow">
+                YOUR VALUES
+            </p>
+
+            <h1>
+                あなたの<br>
+                価値観は？
+            </h1>
+
+            <p class="description">
+                趣味だけじゃなく、<br>
+                「一緒にいて合う人」を探します。
+            </p>
+
+
+            <div class="choice-grid">
+
+                <button type="button" class="choice-button value" data-value="外に出たい">
+                    🌎 外に出たい
+                </button>
+
+                <button type="button" class="choice-button value" data-value="家で過ごす">
+                    🏠 家で過ごす
+                </button>
+
+                <button type="button" class="choice-button value" data-value="少人数">
+                    👥 少人数が好き
+                </button>
+
+                <button type="button" class="choice-button value" data-value="大人数">
+                    👫 大人数が好き
+                </button>
+
+                <button type="button" class="choice-button value" data-value="新しいこと">
+                    ✨ 新しいことが好き
+                </button>
+
+                <button type="button" class="choice-button value" data-value="こだわり">
+                    🔥 好きなものにこだわる
+                </button>
+
+            </div>
+
+
+            <button
+                type="button"
+                id="startButton"
+                class="main-button"
+            >
+
+                <span>
+                    START MATE.
+                </span>
+
+                <span>
+                    →
+                </span>
+
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================
+         DISCOVER
+    ========================== -->
+
+    <section id="discoverScreen" class="screen">
+
+        <header class="discover-header">
+
+            <div class="logo">
+                MATE.
+            </div>
+
+            <div class="discover-menu">
+                DISCOVER
+            </div>
+
+        </header>
+
+
+        <main class="discover-main">
+
+
+            <div class="discover-title">
+
+                <p class="eyebrow">
+                    FIND YOUR PEOPLE
+                </p>
+
+                <h1>
+                    あなたに合う<br>
+                    MATEを探そう。
+                </h1>
+
+            </div>
+
+
+
+            <!-- PROFILE -->
+
+            <div class="profile-card">
+
+                <div class="profile-image-wrap">
+
+                    <img
+                        id="profileImage"
+                        src=""
+                        alt="プロフィール写真"
+                    >
+
+                    <div
+                        id="matchScore"
+                        class="match-score"
+                    >
+                        0% MATCH
+                    </div>
+
+                </div>
+
+
+                <div class="profile-info">
+
+                    <h2 id="profileName">
+                        -
+                    </h2>
+
+                    <p
+                        id="profileLocation"
+                        class="profile-location"
+                    >
+                        -
+                    </p>
+
+                    <p
+                        id="profileBio"
+                        class="profile-bio"
+                    >
+                        -
+                    </p>
+
+
+                    <div
+                        id="profileTags"
+                        class="profile-tags"
+                    ></div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- LIKE / PASS -->
+
+            <div class="action-buttons">
+
+                <button
+                    type="button"
+                    id="passButton"
+                    class="action-button pass"
+                >
+                    ✕
+                </button>
+
+
+                <button
+                    type="button"
+                    id="likeButton"
+                    class="action-button like"
+                >
+                    ♥
+                </button>
+
+            </div>
+
+
+
+            <!-- =========================
+                 ACTIVITY
+            ========================== -->
+
+            <div class="activity-section">
+
+                <div class="activity-header">
+
+                    <p class="eyebrow">
+                        ACTIVITY
+                    </p>
+
+                    <h2>
+                        YOUR<br>
+                        PEOPLE.
+                    </h2>
+
+                </div>
+
+
+
+                <!-- LIKES -->
+
+                <div class="likes-panel">
+
+                    <div class="panel-top">
+
+                        <div>
+
+                            <div class="panel-label">
+                                LIKES
+                            </div>
+
+                            <h3>
+                                あなたにLIKEした人
+                            </h3>
+
+                        </div>
+
+
+                        <div
+                            id="likesCount"
+                            class="activity-count"
+                        >
+                            0
+                        </div>
+
+                    </div>
+
+
+                    <div
+                        id="likesList"
+                        class="likes-list"
+                    ></div>
+
+                </div>
+
+
+
+                <!-- MESSAGES -->
+
+                <div class="messages-panel">
+
+                    <div class="panel-top">
+
+                        <div>
+
+                            <div class="panel-label">
+                                MESSAGES
+                            </div>
+
+                            <h3>
+                                マッチしたMATEと話そう。
+                            </h3>
+
+                        </div>
+
+
+                        <div
+                            id="messagesCount"
+                            class="activity-count"
+                        >
+                            0
+                        </div>
+
+                    </div>
+
+
+                    <div
+                        id="messagesList"
+                        class="messages-list"
+                    ></div>
+
+
+                    <div
+                        id="messagesEmpty"
+                        class="messages-empty"
+                    >
+
+                        <span class="empty-icon">
+                            ○
+                        </span>
+
+                        <p>
+                            まだメッセージはありません。
+                        </p>
+
+                        <small>
+                            MATEとマッチすると<br>
+                            ここからメッセージを送れます。
+                        </small>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- YOUR MATCHES -->
+
+            <div class="matches-panel">
+
+                <div class="matches-title">
+
+                    <span>
+                        YOUR MATCHES
+                    </span>
+
+                    <span id="matchCount">
+                        0
+                    </span>
+
+                </div>
+
+
+                <div
+                    id="matchList"
+                    class="match-list"
+                ></div>
+
+            </div>
+
+        </main>
+
+    </section>
+
+
+
+    <!-- =========================
+         CHAT
+    ========================== -->
+
+    <div
+        id="chatModal"
+        class="chat-modal"
+    >
+
+        <div class="chat-window">
+
+
+            <div class="chat-header">
+
+                <button
+                    type="button"
+                    id="closeChat"
+                    class="chat-close"
+                >
+                    ←
+                </button>
+
+
+                <div class="chat-user">
+
+                    <div
+                        id="chatAvatar"
+                        class="chat-avatar"
+                    ></div>
+
+
+                    <div>
+
+                        <strong id="chatName">
+                            -
+                        </strong>
+
+                        <span>
+                            MATE
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <div
+                id="chatMessages"
+                class="chat-messages"
+            ></div>
+
+
+
+            <div class="chat-input-area">
+
+                <input
+                    type="text"
+                    id="chatInput"
+                    placeholder="メッセージを入力..."
+                >
+
+
+                <button
+                    type="button"
+                    id="sendMessage"
+                >
+                    →
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
